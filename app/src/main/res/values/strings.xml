@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SmsBank</string>
+    <string name="title_activity_sberbank_transfer">SmsBank</string>
+    <string name="tab_text_1">Contacts</string>
+    <string name="tab_text_2">Phone number</string>
+    <string name="tab_text_3">Card number</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_sber_money_transfer_to_person">SberMoneyTransferToPerson</string>
+    <string name="Sberbank">Sberbank</string>
+    <string name="AlfaBank">Alfa Bank</string>
+    <string name="RusStandart">Russky Standart</string>
+</resources>

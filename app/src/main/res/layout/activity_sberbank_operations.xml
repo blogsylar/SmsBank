@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
+
+        <Button
+            android:id="@+id/moneyTransfer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Перевести деньги"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/infoCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Другие информационные запросы"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Узнать, сколько денег на карте"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/spasibo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Узнать, сколько бонусов СПАСИБО накоплено"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/paidPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Оплатить телефон"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/cardOperations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Операции с картами"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</ScrollView>
